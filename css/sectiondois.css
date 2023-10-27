@@ -1,0 +1,87 @@
+.page-second section > div {
+  display: flex;
+  justify-content: center;
+  gap: 76px;
+  align-items: center;
+}
+
+.page-second .insideBlockBuy {
+  background: #f4f4f4;
+  border-radius: 26px;
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 278px;
+  justify-content: center;
+}
+
+.page-second p {
+  font-weight: 800;
+  font-size: 68px;
+  background: linear-gradient(119deg, #ffe664 0%, #fa8341 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page-second h2 {
+  font-size: 80px;
+  font-weight: 800;
+  background: linear-gradient(119deg, #ffe664 0%, #fa8341 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page-second section div:nth-child(3) > div {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 514px;
+  height: 278px;
+  justify-content: center;
+  padding-top: 60px;
+  border-radius: 24px;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+
+.page-second input {
+  padding: 12px;
+  width: 394px;
+}
+
+.page-second .teste select {
+  width: 82px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  background: url("/img/seta-final.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+  position: relative;
+  color: #ffc164;
+  /* background: linear-gradient(119deg, #ffe664 0%, #fa8341 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.page-second section div:nth-child(2) > div {
+  display: flex;
+  height: 48px;
+  background: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  width: 478px;
+  border-radius: 6px;
+}
+
+.page-second .buttonMargin {
+  background: #dddddd;
+  padding: 2px;
+  border-radius: 10px;
+}

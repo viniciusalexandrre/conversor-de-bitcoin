@@ -1,0 +1,60 @@
+@import "/css/footer.css";
+@import "/css/header.css";
+@import "/css/headerdois.css";
+@import "/css/section.css";
+@import "/css/sectiondois.css";
+@import "/css/responsivo.css";
+@import "/css/responsivodois.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h2,
+h1,
+select {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+select {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.estrutura {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.page-second {
+  scroll-snap-align: start;
+  width: 100%;
+  flex: 0 0 100%;
+  justify-content: center;
+}
+
+.home-page {
+  scroll-snap-align: start;
+  width: 100%;
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,71 @@
+.home-page div > h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 32px;
+}
+
+.home-page h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: #474343;
+}
+
+.home-page section {
+  display: flex;
+  justify-content: center;
+}
+
+.home-page section > div {
+  display: flex;
+  gap: 32px;
+}
+
+.home-page .blocoCotacao {
+  padding: 2px;
+  border-radius: 20px;
+  box-shadow: -5px -2px 25px 0px rgba(255, 230, 100, 0.25),
+    4px 8px 25px 0px rgba(250, 131, 65, 0.25);
+  background: linear-gradient(119deg, #ffe664 0%, #fa8341 100%);
+}
+
+.home-page .insideBlock {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 300px;
+  padding-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page .insideBlock div:nth-child(1) > p {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 108%;
+  background: linear-gradient(119deg, #ffe664 0%, #fa8341 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+.home-page .insideBlock div:nth-child(2) > p {
+  color: #474343;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.home-page .insideBlock div:nth-child(2) {
+  background: #d6d6d6;
+  border-radius: 10px;
+  height: 48px;
+  width: 272px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

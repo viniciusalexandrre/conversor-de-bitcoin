@@ -1,0 +1,14 @@
+.page-second header > div {
+  display: flex;
+  justify-content: center;
+  padding-top: 82px;
+  padding-bottom: 130px;
+  align-items: center;
+  gap: 32px;
+}
+
+.page-second h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #474343;
+}

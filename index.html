@@ -81,7 +81,7 @@
                       </svg>
                     </div>
                     <div class="optionBitcoin">
-                      <select>
+                      <select id="multiMoedas">
                         <div>
                           <option value="Dolar">Usd - Dolar</option>
                           <option value="Euro">Usd - Euro</option>
@@ -345,7 +345,11 @@
                 <div class="buttonMargin">
                   <div>
                     <div>
-                      <input type="text" placeholder="DIGITI O VALOR..." />
+                      <input
+                        id="valor"
+                        type="text"
+                        placeholder="DIGITI O VALOR..."
+                      />
                     </div>
                     <div class="teste">
                       <select id="mudarPreco">
@@ -431,5 +435,6 @@
         </footer>
       </div>
     </div>
+    <script type="module" src="./module/valor.js"></script>
   </body>
 </html>
